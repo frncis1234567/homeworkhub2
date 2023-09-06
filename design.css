@@ -1,0 +1,98 @@
+
+  .Uppertab {
+    background-color: #1e0360; /* Red background */
+    height: 100px;
+    place-content:inherit;
+    align-content: center;
+    overflow:visible;
+  }
+
+
+  .navbar {
+    background-color: #1e2a78; /* Dark blue background color */
+    padding: 20px 0; /* Add padding for spacing */
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+  }
+
+  .pagelogo {
+   display: flex;
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    margin-left: 300px;
+    padding-top: -1000px;
+    text-align: center; /* Center-align the navigation links */
+    justify-content: center;
+  }
+  
+  .navbar li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 40px; /* Add spacing between list items */
+    margin-top: -1000px;
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Text color (white) */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Style the links on hover */
+  .navbar a:hover {
+    color: #f2f2f2; /* Lighter text color on hover */
+  }
+
+  body {
+    background-color: #1e0360;
+  }
+
+  .mainname {
+    color: aqua;
+  }
+  
+  .email {
+    font-size: large;
+    color: #f2f2f2;
+  }
+
+  .Profile {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .titleidea {
+    color: aqua;
+  }
+
+  .contentidea {
+    color: #f2f2f2;
+  }
+
+  .titleidea {
+    justify-content: center;
+    display: flex;
+  }
+
+
+  .ideatexts {
+    align-items: center;
+    display:inline;
+  }
+  
+  .Assignmenttitle {
+    justify-content: center;
+    display: flex;
+    color: rgb(241, 216, 27);
+  }
+
+  .assignment {
+    justify-content: center;
+    display: flex;
+    color: rgb(241, 27, 212);
+  }
